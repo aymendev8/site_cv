@@ -1,0 +1,251 @@
+* {
+  font-family: Trebuchet, sans-serif;
+  padding: 0%;
+  margin: 0%;
+  text-align: justify;
+}
+
+/* Header */
+header,
+footer {
+  width: 100%;
+  padding: 20px 0px;
+  background: url(Images/fond_header.jpg);
+  box-shadow: 0px 0px 15px #333;
+  border-bottom: 2px solid white;
+}
+
+header h1 {
+  color: white;
+  font-size: 1em;
+}
+.photo {
+  text-align: center;
+}
+.photo img {
+  width: 150px;
+  height: 150px;
+  border: 3px solid white;
+  box-shadow: 0px 0px 10px grey;
+  border-radius: 50%;
+  margin-top: -80px;
+}
+header ul {
+  display: inline-flex;
+  list-style: none;
+  color: white;
+}
+header li {
+  margin-right: 5%;
+  text-decoration: none;
+}
+:link {
+  text-decoration: none;
+  color: white;
+}
+header ul :visited {
+  color: white;
+}
+/* Header */
+
+/* Mes_infos */
+section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 20px;
+  margin: 20px auto;
+  box-shadow: 0px 0px 10px #bfc1c2;
+  background-color: white;
+}
+section > div {
+  width: 90%;
+}
+section h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.presentation {
+  padding: 5px;
+  text-align: center;
+}
+
+/* Mes_infos */
+
+/* Mon parcours */
+.ecole h2 {
+  padding-bottom: 10px;
+  text-align: center;
+}
+.ecole {
+  display: flex;
+  flex-flow: row wrap;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.trait {
+  border-bottom: 1px solid grey;
+}
+
+.ecole img {
+  height: 80px;
+  width: 80px;
+}
+.logo_ecole {
+  flex: 0 0 25%;
+  max-width: 100px;
+}
+/* Mon parcours */
+
+/* Mes Expériences */
+.entreprise h2 {
+  padding-bottom: 10px;
+  text-align: center;
+}
+.entreprise {
+  display: flex;
+  flex-flow: row wrap;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.trait {
+  border-bottom: 1px solid grey;
+}
+.entreprise img {
+  height: 80px;
+  width: 80px;
+}
+.logo_entreprise {
+  flex: 0 0 25%;
+  max-width: 100px;
+}
+/* Mes Expériences */
+
+/* Mes compétences */
+.competence {
+  box-sizing: border-box;
+}
+.bar_de_progression {
+  width: 100%;
+  background-color: #ddd;
+}
+.competences {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+.ponctuel {
+  width: 95%;
+  background-color: #04aa6d;
+}
+.travail_equipe {
+  width: 90%;
+  background-color: #04aa6d;
+}
+.rigoureux {
+  width: 93%;
+  background-color: #04aa6d;
+}
+.html {
+  width: 70%;
+  background-color: #04aa6d;
+}
+.css {
+  width: 60%;
+  background-color: #04aa6d;
+}
+.python {
+  width: 75%;
+  background-color: #04aa6d;
+}
+/* Mes compétences */
+
+/* Mes centre d'interet*/
+.centre_interet h2 {
+  text-align: center;
+}
+.centre_interet img {
+  height: 70px;
+  width: 70px;
+}
+.centre_interet ul {
+  list-style: none;
+}
+.centre_interet li {
+  margin-bottom: 5px;
+}
+.sport{display: inline;}
+.jv{display: inline;}
+.spotify{display: inline;}
+
+/* Mes centre d'interet*/
+
+/* contacter */
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: grey;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+  color: white;
+}
+
+.contact {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+}
+
+/* contacter */
+
+/* FOOTER */
+
+footer p {
+  padding-top: 10px;
+  color: white;
+  text-align: center;
+}
+
+.mes_reseaux_sociaux img {
+  width: 40px;
+  height: 30px;
+  list-style-type: none;
+}
+.mes_reseaux_sociaux ul {
+  list-style: none;
+  display: inline-flex;
+  padding-top: 30px;
+}
+.mes_reseaux_sociaux li {
+  padding-right: 10%;
+}
+
+/* FOOTER */
+
+
+
+
+
+
